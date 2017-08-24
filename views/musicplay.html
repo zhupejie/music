@@ -1,0 +1,66 @@
+<div id="wrapper">
+    <div class="music_bg"></div>
+    <div class="music_title">
+        <a class="detail_back">
+            <img src="images/ic_bar_back_white.png" alt="back">
+        </a>
+        <div class="music-info">
+            <div class="music_song" id="music_song"></div>
+            <div class="music_artist" id="music_artist"></div>
+        </div>
+        <a class="collect" onclick="collect()">
+            <img src="images/abc_ic_menu_share_mtrl_alpha.png" alt="share">
+        </a>
+    </div>
+    <div class="play-board">
+        <img id="needle" class="play-needle resume-needle" src="images/play_needle.png"/>
+        <div class="disk-bg"></div>
+        <!--<div class="disk-cover disk-cover-animation" style="display: none">-->
+            <!--<img class="album" src="images/placeholder_disk_play_song.png"/>-->
+            <!--<img class="disk-border" src="images/play_disc.png"/>-->
+        <!--</div>-->
+        <div class="disk-cover disk-cover-animation">
+            <img class="album" src="images/placeholder_disk_play_song.png"/>
+            <img class="disk-border" src="images/play_disc.png"/>
+        </div>
+        <!--<div class="disk-cover disk-cover-animation" style="display: none">-->
+            <!--<img class="album" src="images/placeholder_disk_play_song.png"/>-->
+            <!--<img class="disk-border" src="images/play_disc.png"/>-->
+        <!--</div>-->
+        <div class="footer">
+            <div class="process" id="process">
+                <span id="currentTime">00:00</span>
+
+                <div class="process-bar">
+                    <div class="rdy"></div>
+                    <div class="cur">
+                        <span id="processBtn" class="process-btn c-btn"></span>
+                    </div>
+                </div>
+                <span id="totalTime">00:00</span>
+            </div>
+            <div class="control" id="controls">
+                <span class="c-btn loop-btn" ></span>
+                <span class="pre c-btn" ></span>
+                <span class="play c-btn" onclick="play()" style="display: none"></span>
+                <span class="pause c-btn" onclick="pause()"></span>
+                <span class="next c-btn" ></span>
+                <span class="c-btn list-btn" ></span>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+</div>
